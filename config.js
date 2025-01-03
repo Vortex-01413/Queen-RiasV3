@@ -1,7 +1,7 @@
 require('dotenv').config(); // Load environment variables
 
 module.exports = {
-    prefix: process.env.PREFIX || '!', // Command prefix
+    prefix: process.env.PREFIX || '.', // Command prefix
     ownerName: process.env.OWNER_NAME || 'Vortex', // Owner name
     ownerNumber: process.env.OWNER_NUMBER || '2348082071024', // Your WhatsApp number
     mode: process.env.MODE || 'private', // Bot mode: 'public' or 'private'
